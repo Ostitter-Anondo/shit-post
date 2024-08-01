@@ -1,0 +1,110 @@
+body{
+    margin: 0px;
+    background-color: #00002d;
+}
+section{
+    width: 80vw;
+    height: 100vh;
+    position: relative;
+    margin: auto;
+}
+.n{
+    width: 300px;
+    border: 2px solid orange;
+    position: absolute;
+    transition: left 1s linear, top 1s linear 1s, transform 2s linear 2s;
+}
+
+#n1-a{
+    top: calc(50vh - 45px);
+    left: calc(40vw - 150px);
+}
+#n1-b{
+    top: calc(50vh - 70px);
+    left: calc(40vw - 150px);
+}
+#n1-c{
+    top: calc(50vh - 95px);
+    left: calc(40vw - 150px);
+}
+#n2-a{
+    top: calc(50vh + 30px);
+    left: calc(40vw - 150px);
+}
+#n2-b{
+    top: calc(50vh + 55px);
+    left: calc(40vw - 150px);
+}
+#n2-c{
+    top: calc(50vh + 80px);
+    left: calc(40vw - 150px);
+}
+
+.u{
+    width: 300px;
+    height: 20px;
+    border: 4px solid orange;
+    position: absolute;
+    border-right: #00002d;
+    border-left: #00002d;
+    transition: left 1s linear, top 1s linear 1s, transform 2s linear 2s, height 1s linear 2s, border-right 1s linear 1s, border-radius 1s linear 1s;
+}
+#u1{
+    top: calc(50vh - 10px);
+    left: calc(40vw - 150px);
+}
+#u2{
+    top: calc(50vh + 115px);
+    left: calc(40vw - 150px);
+}
+
+
+section:hover #n1-c{
+    transform: rotate(90deg);
+    left: -5vw;
+    top: calc(50vh + 30px);
+}
+section:hover #n1-b{
+    transform: rotate(65deg);
+    width: 325px;
+    left: calc(-5vw + 58px);
+    top: calc(50vh + 30px);
+}
+section:hover #n1-a{
+    transform: rotate(90deg);
+    left: calc(-5vw + 140px);
+    top: calc(50vh + 30px);
+}
+section:hover #n2-c{
+    transform: rotate(90deg);
+    left: calc(-5vw + 450px);
+    top: calc(50vh + 30px);
+}
+section:hover #n2-b{
+    transform: rotate(65deg);
+    width: 325px;
+    left: calc(-5vw + 508px);
+    top: calc(50vh + 30px);
+}
+section:hover #n2-a{
+    transform: rotate(90deg);
+    left: calc(-5vw + 590px);
+    top: calc(50vh + 30px);
+}
+
+section:hover #u1{
+    transform: rotate(90deg);
+    height: 210px;
+    left: calc(-5vh + 265px);
+    top: calc(50vh - 70px);
+    border-right: 4px solid orange;
+    border-radius: 0 120px 120px 0;
+}
+section:hover #u2{
+    transform: rotate(90deg);
+    height: 210px;
+    left: calc(-5vh + 715px);
+    top: calc(50vh - 70px);
+    border-right: 4px solid orange;
+    border-radius: 0 120px 120px 0;
+}
