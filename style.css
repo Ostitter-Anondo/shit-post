@@ -112,45 +112,45 @@ section:hover #u2{
 @media screen and (max-width: 576px) {
     section{
         transform: scale(50%);
-        right: 25vw;
+        /* right: 25vw; */
     }
     section:hover #n1-c{
         transform: rotate(90deg);
-        left: calc(-30vw);
+        left: calc(-60vw);
         top: calc(10vh + 30px);
     }
     section:hover #n1-b{
         transform: rotate(65deg);
         width: 325px;
-        left: calc(-30vw + 58px);
+        left: calc(-60vw + 58px);
         top: calc(10vh + 30px);
     }
     section:hover #n1-a{
         transform: rotate(90deg);
-        left: calc(-30vw + 140px);
+        left: calc(-60vw + 140px);
         top: calc(10vh + 30px);
     }
     section:hover #n2-c{
         transform: rotate(90deg);
-        left: calc(-65vw + 450px);
+        left: calc(-110vw + 450px);
         top: calc(50vh + 30px);
     }
     section:hover #n2-b{
         transform: rotate(65deg);
         width: 325px;
-        left: calc(-65vw + 508px);
+        left: calc(-110vw + 508px);
         top: calc(50vh + 30px);
     }
     section:hover #n2-a{
         transform: rotate(90deg);
-        left: calc(-65vw + 590px);
+        left: calc(-110vw + 590px);
         top: calc(50vh + 30px);
     }
     
     section:hover #u1{
         transform: rotate(90deg);
         height: 210px;
-        left: calc(-30vw + 265px);
+        left: calc(-60vw + 265px);
         top: calc(10vh - 70px);
         border-right: 4px solid orange;
         border-radius: 0 120px 120px 0;
@@ -158,7 +158,7 @@ section:hover #u2{
     section:hover #u2{
         transform: rotate(90deg);
         height: 210px;
-        left: calc(-65vw + 715px);
+        left: calc(-110vw + 715px);
         top: calc(50vh - 70px);
         border-right: 4px solid orange;
         border-radius: 0 120px 120px 0;
